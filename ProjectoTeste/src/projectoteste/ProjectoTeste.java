@@ -15,6 +15,6 @@ public class ProjectoTeste {
      */
     public static void main(String[] args) {
         Cliente c = new Cliente(1, "Raul  ");
-        System.out.printf("%s\n", c.toString());
+        System.out.printf("%s   \n", c.toString());
     }
 }

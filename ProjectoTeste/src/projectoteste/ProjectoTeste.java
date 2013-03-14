@@ -14,6 +14,7 @@ public class ProjectoTeste {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Cliente c = new Cliente(1, "Raul");
+        System.out.printf("%s\n", c.toString());
     }
 }

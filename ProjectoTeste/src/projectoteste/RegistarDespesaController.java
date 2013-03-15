@@ -9,5 +9,9 @@ package projectoteste;
  * @author Raul.Lima
  */
 public class RegistarDespesaController {
+
+    void RegistarDespesa(float Valor, String Descricao) {
+        Despesa desp = new Despesa();
+    }
     
 }

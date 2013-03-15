@@ -4,6 +4,8 @@
  */
 package projectoteste;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Raul.Lima
@@ -11,7 +13,14 @@ package projectoteste;
 public class RegistarDespesasUI {
 
     void PedeDados() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        RegistarDespesaController Controler = new RegistarDespesaController();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Indique o valor: ");
+        float Valor = scan.nextFloat();
+        System.out.println("Indique a descrição: ");
+        String Descricao = scan.next();
+        Controler.RegistarDespesa(Valor, Descricao);
+        System.out.println("Despesa registada com sucesso");
     }
     
 }

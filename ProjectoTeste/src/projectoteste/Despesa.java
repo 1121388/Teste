@@ -9,5 +9,7 @@ package projectoteste;
  * @author Raul.Lima
  */
 public class Despesa {
-    
+    float valor;
+    String descricao;
+          
 }
